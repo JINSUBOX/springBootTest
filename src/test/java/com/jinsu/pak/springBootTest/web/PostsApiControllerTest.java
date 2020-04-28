@@ -1,14 +1,12 @@
 package com.jinsu.pak.springBootTest.web;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.junit.Before;
-import org.springframework.http.MediaType;
 import com.jinsu.pak.springBootTest.domain.posts.Posts;
 import com.jinsu.pak.springBootTest.domain.posts.PostsRepository;
 import com.jinsu.pak.springBootTest.web.dto.PostsSaveRequestDto;
 import com.jinsu.pak.springBootTest.web.dto.PostsUpdateRequestDto;
-import javafx.geometry.Pos;
 import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,13 +14,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.MediaType;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.MockMvcBuilder;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
