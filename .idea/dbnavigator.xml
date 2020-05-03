@@ -23,14 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="f317c102-a284-4d9e-b7e8-3438b70473a6">
-        <schema name="information_schema" object-types="view, procedure, function, table" />
-        <schema name="mysql" object-types="view, procedure, function, table" />
-        <schema name="performance_schema" object-types="view, procedure, function, table" />
-        <schema name="springboot_test" object-types="view, procedure, function, table" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="f317c102-a284-4d9e-b7e8-3438b70473a6">
@@ -336,6 +329,7 @@ CREATE TABLE SPRING_SESSION_ATTRIBUTES (
           <content-type name="VTL" enabled="true" />
           <content-type name="YAML" enabled="true" />
           <content-type name="Flex" enabled="true" />
+          <content-type name="Bash" enabled="true" />
           <content-type name="Manifest" enabled="true" />
         </content-types>
       </qualified-text-editor>
